@@ -1,0 +1,87 @@
+/* Общие стили */
+body{
+    margin: 0px;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    text-align: center;
+}
+
+.invisible{
+    display: none;
+}
+
+.invisible-100{
+    opacity: 0;
+}
+
+ul.decor-none{
+    list-style: none;
+}
+
+.underline{
+    border-bottom: 1px solid gray;
+}
+
+.red{
+    color: red;
+}
+
+.back-light-blue{
+    background-color: #A8D1E7;
+}
+
+.back-blue{
+    background-color: #384685;
+    border-radius: 5px;
+}
+
+.absolute{
+    position: absolute;
+}
+
+/* Навигационная панель */
+#navbar ul li{
+    margin-left: 25px;
+}
+
+#navbar .back-light-blue{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navbar .underline{
+    margin-bottom: 10px;
+}
+
+#navbar #hotbares ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+#navbar #hotbares ul li{
+    padding-top: 10px;
+    margin-left: 0px;
+}
+
+/* реклама */
+#advertising{
+    margin-top: 50px;
+}
+
+#advertising .container{
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    height: 387px;
+}
+
+
+#catalog img{
+    float: left;
+    margin-right: 20px;
+}
